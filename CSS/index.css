@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Loader ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+body{
+  scroll-behavior: smooth;
+  overflow: hidden;
+  margin: 0;
+}
+  
+#myLoading{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999999999999999999;
+}
+
+#loaderDiv{
+  margin: 0 0 2em;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#loaderSize{
+  transform: scale(3);
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Shared ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+.Pointer{
+    cursor: pointer;
+}
+
+.a_None{
+    text-decoration: none;
+}
+
+.SM-BTN-icon{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: solid black 3px;
+    transition: transform 0.75s;
+}
+.SM-BTN-icon:hover{
+    border: solid white 2px;
+    transform: scale(1.25);
+}
+
+.GitHub{
+    color: black;
+}
+
+.LinkedIn{
+    color: #0366C3;
+}
+
+.Facebook{
+    color: #1877F2;
+}
+
+.Twitter{
+    color: #1877F2;
+}
+
+.Instagram{
+    color: #E8067F;
+}
+
+.Youtube{
+    color: red;
+}
+
+.TikTok{
+    color: black;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Footer ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+.footer_logo{
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s;
+    border: solid black 1px;
+}
+
+.footer_logo:hover{
+    border: solid blueviolet 10px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+#nav-content{
+    width: 200px;
+    overflow: hidden;
+}
+#nav-content1{
+    position: relative;
+    top: -100%;
+}
+#nav-content2{
+    position: relative;
+    bottom: -100%;
+}
+#nav-content ul{
+    list-style-type: none;
+}
+#mega-navbar{
+    position: fixed;
+    z-index: 9999999999;
+    top: 0;
+    left: -200px;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+}
+#mega-navbar img{
+    width: 25px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Home ------------------------------------------------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+.nameOfMeal{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: all 1s;
+}
+.nameOfMeal h3{
+    position: relative;
+    bottom: -100%;
+    transition: 1s bottom;
+}
+.megaHover:hover .nameOfMeal{
+    opacity: 1;
+
+}
+
+.megaHover:hover .nameOfMeal h3{
+    bottom: 0;
+}
+
+
+
+
+
+.nameOfMeal2{
+    padding: 10px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.megaHover2:hover .nameOfMeal2{
+    opacity: 1;
+
+}
+

@@ -1,0 +1,147 @@
+/* ----------------------------------------------------------------------------- */
+/* @Media ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+@media screen and (max-width:600px){
+    .navbar_tittle h1{
+        font-size: 1.5rem;
+    }
+    .main_view h1{
+        font-size: 4rem;
+    }
+    .main_view h2{
+        font-size: 1.5rem;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .about-img-div{
+        width: 100%;
+    }
+    .imgBorder{
+        position: relative;
+        width: 70%;
+    }
+    .about-content-div{
+        width: 100%;
+        padding: 20px;
+        margin: 25px 0;
+    }
+    .about-section ul li{
+        float: none;
+        width: 100%;
+    }
+    .services_block{
+        width: calc(90%/1);
+    }
+    .our_portfolio_block{
+        width: calc(80%/1);
+    }
+    .our_blog_block{
+        width: calc(85%/1);
+    }
+    .form_contact_us{
+        width: 90%;
+    }
+    .form_contact_us .name_mail input{
+        width: calc(100%/1);
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+    .navbar_tittle h1{
+        font-size: 1.5rem;
+    }
+    .main_view h1{
+        font-size: 4rem;
+    }
+    .main_view h2{
+        font-size: 1.5rem;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .about-img-div{
+        width: 100%;
+    }
+    .imgBorder{
+        position: relative;
+        width: 70%;
+    }
+    .about-content-div{
+        width: 100%;
+        padding: 20px;
+        margin: 25px 0;
+    }
+    .about-section ul li{
+        width: 100%;
+    }
+    .services_block{
+        width: calc(90%/2);
+    }
+    .our_portfolio_block{
+        width: calc(80%/2);
+    }
+    .our_blog_block{
+        width: calc(85%/1);
+    }
+    .form_contact_us{
+        width: 90%;
+    }
+    .form_contact_us .name_mail input{
+        width: calc(100%/1);
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){
+    .navbar_tittle h1{
+        font-size: 1.5rem;
+    }
+    .main_view h1{
+        font-size: 4rem;
+    }
+    .main_view h2{
+        font-size: 1.5rem;
+    }
+
+    .about-img-div{
+        width: 100%;
+    }
+    .imgBorder{
+        position: relative;
+        width: 50%;
+    }
+    .about-content-div{
+        width: 100%;
+        padding: 20px;
+        margin: 25px 0;
+    }
+    .about-section ul li{
+        width: 100%;
+    }
+    .services_block{
+        width: calc(80%/2);
+    }
+    .our_portfolio_block{
+        width: calc(70%/2);
+    }
+    .our_blog_block{
+        width: calc(65%/1);
+    }
+    .form_contact_us{
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width:1201px){
+}
+
+
+
+
+
+
+
+
+

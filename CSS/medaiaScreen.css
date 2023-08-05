@@ -1,0 +1,45 @@
+/* ----------------------------------------------------------------------------- */
+/* @Media ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+@media screen and (max-width:600px){
+    .sectionSizing{
+        width: 80%;
+        margin-left: 15%;
+        padding: 16px 0;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+    .sectionSizing{
+        width: 85%;
+        margin-left: 10%;
+        padding: 16px 0;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1200px){
+    .sectionSizing{
+        width: 85%;
+        margin-left: 10%;
+        padding: 16px 0;
+    }
+}
+
+@media screen and (min-width:1201px){
+    .sectionSizing{
+        width: 90%;
+        margin-left: 6%;
+        padding: 16px 0;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -204,32 +204,4 @@ body{
     width: 90%;
 }
 
-/* @media screen and (max-width:600px){
-    .sizeIMG{
-        width: 90%;
-    }
-}
 
-@media screen and (min-width:601px) and (max-width:768px){
-    .sizeIMG{
-        width: 90%;
-    }
-}
-
-@media screen and (min-width:769px) and (max-width:992px){
-    .sizeIMG{
-        width: 90%;
-    }
-}
-
-@media screen and (min-width:993px) and (max-width:1200px){
-    .sizeIMG{
-        width: 100px;
-    }
-}
-
-@media screen and (min-width:1201px){
-    .sizeIMG{
-        width: 100px;
-    }
-} */

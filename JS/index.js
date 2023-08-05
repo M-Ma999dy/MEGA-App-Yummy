@@ -489,7 +489,7 @@ function openMealD(id,nameOfMeal){
         
                   <div>
         
-                    <ul id="recipesList"><li>200ml<span class="ps-2">Milk</span></li><li>60ml<span class="ps-2">Oil</span></li><li>2<span class="ps-2">Eggs</span></li><li>1600g<span class="ps-2">Flour</span></li><li>3 tsp<span class="ps-2">Baking Powder</span></li><li>1/2 tsp<span class="ps-2">Salt</span></li><li>25g<span class="ps-2">Unsalted Butter</span></li><li>45g<span class="ps-2">Sugar</span></li><li>3 tbs<span class="ps-2">Peanut Butter</span></li></ul>
+                    <ul id="recipesList"></ul>
         
                   </div>
         
@@ -555,8 +555,6 @@ function inputNameCheckKey(key) {
 
 async function getAllMealsByName(key){
 
-  displayLoader(1)
-
   let mealsListSearch = []
 
   let allMealsSearch = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${key}`,{
@@ -572,8 +570,6 @@ async function getAllMealsByName(key){
   }
 
   inputNameCheck(mealsListSearch)
-
-  displayLoader()
 
 }
 
@@ -659,8 +655,6 @@ function inputLetterValidation(key){
 
 async function getAllMealsByLetter(key){
 
-  displayLoader(1)
-
   let mealsListSearch = []
 
   let allMealsSearch = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${key}`,{
@@ -677,8 +671,6 @@ async function getAllMealsByLetter(key){
   }
 
   inputLetterCheck(mealsListSearch)
-
-  displayLoader()
 
 }
 

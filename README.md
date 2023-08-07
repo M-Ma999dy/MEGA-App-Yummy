@@ -6,7 +6,7 @@
 #
 # About Website :
 -----------------------
-- Languages i Used on the Site HTML, CSS , JS , jQuery , Call APIs
+- Languages i Used in This Site HTML, CSS , JS , jQuery , Call APIs
 #
 # Website Link :
 ------------------------

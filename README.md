@@ -10,4 +10,4 @@
 #
 # Website Link :
 ------------------------
-- https://eng-m-ma9dy.github.io/Yamee/
+- https://eng-m-ma9dy.github.io/Yummy/
